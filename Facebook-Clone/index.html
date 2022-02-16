@@ -7,16 +7,23 @@
     <link rel="stylesheet" href="/input.css">
     <title>Facebook - login or signup</title>
 </head>
-<body>
-    <div class="container">
-        <div class="left">
-            <img src="/facebook-logo.svg" alt="">
-            <p>Facebook helps you connect and share with the people in your life.</p>
+<body class="bg-gray-200">
+    <div class="container mt-48 flex justify-center">
+        <div class="left w-1/2 flex flex-col justify-center">
+            <img class="w-80" src="/facebook-logo.svg" alt="">
+            <p class="text-3xl mx-9">Facebook helps you connect and share with the people in your life.</p>
         </div>
 
-        <div class="right">
-            <input type="text" placeholder="Email Address Or Phone Number">
-            <input type="password" placeholder="Password">
+        <div class="right flex flex-col bg-white w-96 text-center items-center justify-center p-1 rounded-lg shadow-xl">
+            <input class="mx-3 border-2 my-2 px-3 py-3 rounded-lg w-11/12" type="text" placeholder="Email Address Or Phone Number">
+
+            <input class="mx-3 border-2 my-2 px-3 py-3 rounded-lg w-11/12" type="password" placeholder="Password">
+
+            <button class="btn bg-blue-500 text-white font-bold w-11/12 rounded-lg p-3 my-2">Log In</button>
+
+            <span class="text-blue-500 my-2">Forgotten password?</span>
+            <hr>
+            <button class="btn bg-[#42b72a] w-3/5 rounded-lg py-3 text-white font-bold my-6">Create New Account</button>
         </div>
     </div>
 </body>
