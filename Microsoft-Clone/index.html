@@ -1,13 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <title>Microsoft Clone</title>
 </head>
+
 <body>
-    
+    <div class="navbar flex justify-between items-center p-2">
+        <div class="flex justify-center items-center md:order-2">
+            <div class="hamburger inline-block p-4 cursor-pointer
+            md:hidden">
+                <div class="line my-1 h-0.5 w-5 bg-black"></div>
+                <div class="line my-1 h-0.5 w-5 bg-black"></div>
+                <div class="line my-1 h-0.5 w-5 bg-black"></div>
+            </div>
+            <!-- <div class="search md:hidden">Search</div> -->
+            <div class="search text-3xl md:hidden"><i class="uil uil-search"></i></div>
+        </div>
+
+        <div class="logo md:order-1 flex justify-center items-center md:mx-8">
+            <!-- <div>Microsoft</div> -->
+            <img class="w-24" src="/microsoft-logo.png" alt="">
+            <div class="features   absolute
+            w-fit
+            bg-gray-200
+            md:bg-white
+            inset-0
+            hidden
+            md:static
+            md:w-auto
+            md:flex
+            md:mx-4
+            md:space-x-6
+            md:translate-x-2
+          ">
+                <div class="fitem">Microsoft 365</div>
+                <div class="fitem">Office</div>
+                <div class="fitem">Windows</div>
+                <div class="fitem">Surface</div>
+                <div class="fitem">Xbox</div>
+                <div class="fitem">Support</div>
+            </div>
+        </div>
+
+
+        <div class="cart md:order-3 md:gap-4 md:mx-8 flex">
+            <div class="search text-3xl hidden md:block"><i class="uil uil-search"></i></div>
+            <div class="text-3xl"><i class="uil uil-user"></i></div>
+        </div>
+    </div>
+
+    <div class="slider flex flex-col-reverse justify-center items-center bg-gray-100 md:mx-10 md:flex-row md:rounded-md">
+        <div class=" left items-center justify-center  flex flex-col  text-center md:w-3/5">
+            <h1 class=" text-2xl my-4 md:text-4xl md:my-2">Surface Laptop 4</h1>
+            <p>Do it all with a perfect balance of sleek, ultra-thin design, multitasking speed and improved
+                performance.</p>
+            <button class="btn bg-black text-white font-bold px-4 py-1 my-2 hover:underline">Shop Now ></button>
+        </div>
+        <div class="right">
+            <img class="md:w-[40rem]" src="/laptop.webp" alt="">
+        </div>
+    </div>
+
+    <div class="second-section my-10 md:flex md:justify-center md:mx-10">
+        <div class="input-section my-5 flex md:flex-col items-center">
+        <img class="w-8 h-8 mx-4" src="/grid.png" alt="">
+        <a class="mx-5" href="">Choose Your Microsoft 365</a>
+        </div>
+
+        <div class="input-section my-5 flex md:flex-col items-center">
+        <img class="w-8 h-8 mx-4" src="/mob-stand.webp" alt="">
+        <a class="mx-5" href="">Explore Surface Devices</a>
+    </div>
+
+        <div class="input-section my-5 flex md:flex-col items-center">
+        <img class="w-8 h-8 mx-4" src="/xbox.webp" alt="">
+        <a class="mx-5" href="">Buy Xbox Games</a>
+    </div>
+
+        <div class="input-section my-5 flex md:flex-col items-center">
+            <img class="w-8 h-8 mx-4" src="/grid.png" alt="">
+        <a class="mx-5" href="">Get Windows 11</a>
+    </div>
+
+    </div>
 </body>
+
 </html>
